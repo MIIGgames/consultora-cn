@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultora NovaFinance</title>
+
+    <link rel="stylesheet" href="css/all.css">
+    <!-- LINK ICONS -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- HEANDER -->
+    <header>
+        <div class="menu">
+
+            <a href="#" class="logo">
+                <img src="img/logo-4.svg" alt="">
+            </a>
+
+            <ul class="categorias">
+                <!-- ICONE MENU -->
+                <i class="ph ph-list"></i>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">A NovaFinance</a>
+                        <div class="dropdown-content">
+                            <a href="#">Quem somos</a>
+                            <a href="#">Vantagens NovaFinance</a>
+                            <a href="#">Políticas</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Nossos Produtos</a>
+                        <div class="dropdown-content">
+                            <a href="#">Investimentos</a>
+                            <a href="#">Simulador</a>
+                            <a href="#">Cartão de crédito</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">reconect-se NovaFinance</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Custos</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Tire suas dúvidas</a>
+                    </li>
+            </ul>
+
+            <div class="menu-login">
+                <a href="#" class="log login">login</a>
+                <a href="#" class="log cadastro ">Cadastre-se</a>
+            </div>
+
+        </div>
+    </header>
+    <script src="js/menu.js"></script>
+</body>
+</html>

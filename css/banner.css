@@ -1,0 +1,160 @@
+.banner {
+    background: linear-gradient(to right, #004aad, #5de0e6);
+    width: 100%;
+    height: 80vh;
+}
+
+.banner-divisao {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.desc-logo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.logo-banner {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-banner i {
+    font-size: 3rem;
+    color: #fff;
+    z-index: 10;
+}
+
+.logo-banner h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.desc-logo p {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.buttons-banner {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons-banner .btns {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btns:hover {
+    box-shadow: 1px 1px 1px 1px #000;
+}
+
+.btns.branco {
+    background-color: #fff;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btns.preto {
+    background-color: #004aad;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.banner .img {
+    margin-top: 10%;
+    width: 50%;
+}
+
+.img img {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    animation: floating 3s ease-in-out infinite;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+      transform: translate(-50%, -50%) translateY(-10px);
+    }
+    100% {
+      transform: translate(-50%, -50%) translateY(0);
+    }
+  }
+
+@media (max-width: 600px) {
+    .banner {
+        background-color: #5e17eb;
+        width: 100%;
+        height: 100vh;
+    }
+    .banner-divisao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .desc-logo {
+        width: 100%;
+        justify-content: center;
+        margin-top: 25%;
+    }
+    .logo-banner {
+        justify-content: center;
+        gap: 5px;
+    }
+    .logo-banner i {
+        font-size: 3rem;
+    }
+    .logo-banner h2 {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .desc-logo p {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .buttons-banner {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .banner .img {
+        margin-top: 10%;
+        width: 100%;
+    }
+    .img img {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: floating 3s ease-in-out infinite;
+      }
+    #regras_e_condicoes {
+        display: none;
+    }
+}
