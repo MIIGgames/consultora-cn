@@ -1,0 +1,57 @@
+.silumador {
+    background: #fff;
+    width: 100%;
+    height: 80vh;
+}
+
+.simulador-novafinance {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    gap: 5rem;
+    margin-top: 10%;
+}
+
+.desc-simulador {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.desc-simulador h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.desc-simulador p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 400px;
+}
+
+.button-simulador {
+    background: #004aad;
+    padding: 20px 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    width: 250px;
+}
+
+/*
+
+.img-simulador {
+    width: 50%;
+}
+.img-simulador img {
+    margin-left: 10rem;
+    width: 50%;
+}
+*/
+
+span.azul {
+    color: #004aad;
+}
