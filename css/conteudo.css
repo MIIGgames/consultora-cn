@@ -1,23 +1,100 @@
 .conteudo-main {
-    background-color: #fff;
+    background:linear-gradient(to right, #004aad, #2a9096);
 }
 
 .conteudo {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+
+    color: #fff;
 }
 
 .conteudo h2 {
-    margin-top: 50px;
     text-align: center;
-    font-size: 2rem;
-
+    font-size: 2.5rem;
     font-weight: 600;
+    margin-top: 30px;
 }
 .conteudo p {
     text-align: center;
-    margin-top: 5px;
-    font-size: 1.3rem;
+    margin-top: 10px;
+    font-size: 1.5rem;
     font-weight: 600;
+}
+
+.cards {
+    margin: 30px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+
+    color: #fff;
+}
+
+.cards .bloco {
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.bloco:hover {
+    transition: .1s;
+    transform: scale(1.010);
+}
+
+.bloco i {
+    font-size: 3rem;
+    justify-content: center;
+    display: flex;
+
+    color: #fff;
+}
+
+.bloco h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    text-align: center;
+    margin-top: 20px;
+}
+.bloco p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width:768px) {
+    .conteudo {
+        max-width: 1200px;
+        margin: auto;
+        padding: 10px;
+        color: #fff;
+    }
+    .conteudo h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    .conteudo p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .cards .bloco {
+        width: 100%;
+    }
 }
