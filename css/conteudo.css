@@ -1,0 +1,23 @@
+.conteudo-main {
+    background-color: #fff;
+}
+
+.conteudo {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.conteudo h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2rem;
+
+    font-weight: 600;
+}
+.conteudo p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
